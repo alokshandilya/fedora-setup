@@ -32,6 +32,14 @@
 
 ## Fedora upgrade + Firefox + Google login
 
-- `sudo dnf -y upgrade --refresh`
+- `sudo dnf -y upgrade --refresh` and **_reboot_**
 - login firefox account and google account
 - install `google-chrome` or `microsoft-edge`
+
+## Install DNF packages
+
+- basic + dwm prerequisite packages + fonts
+
+```bash
+sudo dnf install git vim neovim gh dash NetworkManager-tui gvfs-mtp make gcc libXft-devel libX11-devel libXinerama-devel imlib2-devel gd-devel lxappearance stow jetbrains-mono-fonts fira-code-fonts fish flameshot redshift zathura rofi zathura-pdf-poppler cascadia-fonts-all conky exa sysstat picom python3-pip cargo twitter-twemoji-fonts fd-find yt-dlp yt-dlp-fish-completion xset zoxide flatpak obs-studio gparted vlc
+```
