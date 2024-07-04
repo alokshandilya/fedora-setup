@@ -1,0 +1,56 @@
+- touchpad script, reboot
+- test touchpad
+- firefox, google login
+- sudo vi /etc/dnf/dnf.conf
+  - max_parallel_downloads=10
+  - fastestmirror=1
+- sudo dnf install git vim neovim gh dash NetworkManager-tui gvfs-mtp
+- git config --global core.editor nvim
+- git config --global user.name alokshandilya
+- git config --global user.email alok.shandilya10@gmail.com
+- sudo dnf -y upgrade --refresh
+  - reboot
+- https://www.hackingthehike.com/fedora39-guide/ # complete this guide
+
+- https://github.com/rafaelmardojai/firefox-gnome-theme
+
+- git clone https://github.com/vinceliuice/Orchis-theme.git
+- cd Orchis-theme
+- sudo ./install.sh -t green
+
+- git clone https://github.com/vinceliuice/Qogir-icon-theme.git
+- cd Qogir-icon-theme
+- sudo ./install.sh
+
+- sudo dnf install git make gcc libXft-devel libX11-devel libXinerama-devel imlib2-devel gd-devel lxappearance stow
+- suckless, create desktop entry, .dwm/autostart
+
+- git clone https://github.com/alokshandilya/dotfiles.git
+- cd dotfiles
+- mkdir -p ~/.local/share/applications
+- mkdir -p ~/.local/bin/scripts
+- mkdir -p ~/.local/bin/dwmblocks
+
+- sudo dnf install jetbrains-mono-fonts fira-code-fonts fish flameshot redshift zathura rofi zathura-pdf-poppler cascadia-fonts-all conky exa sysstat picom python3-pip cargo twitter-twemoji-fonts fd-find yt-dlp yt-dlp-fish-completion
+- chsh -s /usr/bin/fish
+- reboot
+- download nerd fonts
+  - cascadia code [https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/CascadiaCode.zip]
+  - fira code [https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip]
+  - jetbrains mono [https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip]
+  - unzip to ~/.local/share/fonts
+
+- vscode download rpm
+
+- https://gruvbox-wallpapers.pages.dev/ for wallpaper
+
+- curl -fsSl https://fnm.vercel.app/install | bash --skip-shell
+- install omf
+  - curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+
+- sudo dnf install xset zoxide flatpak obs-studio gparted vlc
+- flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+- flatpak install flathub com.spotify.Client
+- flatpak install flathub org.standardnotes.standardnotes
+- curl -sS https://starship.rs/install.sh | sh
+
