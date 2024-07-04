@@ -18,3 +18,20 @@
             Option "NaturalScrolling" "on"
             Option "ScrollMethod" "twofinger"
     ```
+
+## Fastest mirror + Parallel downloads
+
+- run `2-fastest-mirror.sh` script
+- **Explanation:**
+  - edits `/etc/dnf/dnf.conf` and adds the following content
+
+    ```bash
+    fastestmirror=1
+    max_parallel_downloads=10
+    ```
+
+## Fedora upgrade + Firefox + Google login
+
+- `sudo dnf -y upgrade --refresh`
+- login firefox account and google account
+- install `google-chrome` or `microsoft-edge`
