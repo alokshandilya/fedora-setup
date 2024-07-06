@@ -50,3 +50,13 @@ sudo dnf install git vim neovim gh dash NetworkManager-tui gvfs-mtp make gcc lib
 - `git config --global user.name alokshandilya`
 - `git config --global user.email alok.shandilya10@gmail.com`
 - `gh auth login`
+
+## Follow Guide
+
+- `https://www.hackingthehike.com/fedora39-guide`
+
+> **Note:** This guide is for Fedora 39, but it works for Fedora 40 as well.
+
+## Firefox GNOME Theme
+
+- `https://github.com/rafaelmardojai/firefox-gnome-theme`
