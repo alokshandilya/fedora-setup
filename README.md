@@ -1,10 +1,12 @@
-<span align="left">
-    <img src="https://github.com/alokshandilya/fedora-setup/assets/77057272/09491266-a988-4600-aa7a-feeb00baefcb" width="300" height="120">
-</span>
-
-<span>
-    <img src="https://github.com/alokshandilya/fedora-setup/assets/77057272/f57736fb-f83c-4a3f-9d4f-7483a389d902" width="300" height="120">
-</span>
+<center>
+  <span>
+      <img src="https://github.com/alokshandilya/fedora-setup/assets/77057272/09491266-a988-4600-aa7a-feeb00baefcb" width="300" height="120">
+  </span>
+  
+  <span>
+      <img src="https://github.com/alokshandilya/fedora-setup/assets/77057272/f57736fb-f83c-4a3f-9d4f-7483a389d902" width="300" height="120">
+  </span>
+</center>
 
 # Steps for Fedora + DWM setup
 
