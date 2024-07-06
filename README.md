@@ -60,3 +60,17 @@ sudo dnf install git vim neovim gh dash NetworkManager-tui gvfs-mtp make gcc lib
 ## Firefox GNOME Theme
 
 - `https://github.com/rafaelmardojai/firefox-gnome-theme`
+
+## GTK and Icon Theme
+
+```bash
+git clone https://github.com/vinceliuice/Orchis-theme.git
+cd Orchis-theme
+sudo ./install.sh -t green
+```
+
+```bash
+git clone https://github.com/vinceliuice/Qogir-icon-theme.git
+cd Qogir-icon-theme
+sudo ./install.sh
+```
