@@ -107,3 +107,35 @@ mkdir -p ~/.local/bin/scripts
 mkdir -p ~/.local/bin/dwmblocks
 stow .
 ```
+
+## Fish Shell
+
+```bash
+chsh -s /usr/bin/fish
+reboot
+```
+
+## Fonts
+
+- download nerd fonts
+  - cascadia code [link](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/CascadiaCode.zip)
+  - fira code [link](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip)
+  - jetbrains mono [link](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip)
+  - unzip to ~/.local/share/fonts
+
+## VsCode + Pycharm + OMF + flatpak
+
+- vscode download rpm
+
+- `https://gruvbox-wallpapers.pages.dev` for wallpaper
+
+- `curl -fsSl https://fnm.vercel.app/install | bash --skip-shell`
+- install omf
+  - `curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish`
+
+```bash
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub com.spotify.Client
+flatpak install flathub org.standardnotes.standardnotes
+curl -sS https://starship.rs/install.sh | sh
+```
