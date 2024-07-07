@@ -84,3 +84,26 @@ git clone https://github.com/vinceliuice/Qogir-icon-theme.git
 cd Qogir-icon-theme
 sudo ./install.sh
 ```
+
+## Install Suckless Software
+
+- `dwm`, `dmenu`, `st`, `dwmblocks`
+
+```bash
+git clone https://github.com/alokshandilya/dwm
+cd dwm
+./install.sh
+```
+
+- copy `.dwm/autostart` to `~/.dwm/autostart`
+
+## Dotfiles
+
+```bash
+git clone https://github.com/alokshandilya/dotfiles.git
+cd dotfiles
+mkdir -p ~/.local/share/applications
+mkdir -p ~/.local/bin/scripts
+mkdir -p ~/.local/bin/dwmblocks
+stow .
+```
