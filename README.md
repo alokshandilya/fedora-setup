@@ -130,8 +130,9 @@ reboot
 - `https://gruvbox-wallpapers.pages.dev` for wallpaper
 
 - `curl -fsSl https://fnm.vercel.app/install | bash --skip-shell`
-- install omf
+- install omf and fish-autovenv2
   - `curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish`
+  - `omf install https://github.com/dgrant/fish-autovenv2.git`
 
 ```bash
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
