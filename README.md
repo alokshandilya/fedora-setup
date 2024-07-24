@@ -140,3 +140,10 @@ flatpak install flathub com.spotify.Client
 flatpak install flathub org.standardnotes.standardnotes
 curl -sS https://starship.rs/install.sh | sh
 ```
+
+## `git` commit sign
+
+```bash
+git config --global init.defaultBranch main
+git config --global commit.gpgsign true
+```
