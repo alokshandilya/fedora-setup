@@ -90,9 +90,9 @@ sudo ./install.sh
 - `dwm`, `dmenu`, `st`, `dwmblocks`
 
 ```bash
-git clone https://github.com/alokshandilya/dwm
+git clone https://github.com/alokshandilya/suckless
 cd dwm
-./install.sh
+# ./install.sh
 ```
 
 - copy `.dwm/autostart` to `~/.dwm/autostart`
@@ -146,4 +146,29 @@ curl -sS https://starship.rs/install.sh | sh
 ```bash
 git config --global init.defaultBranch main
 git config --global commit.gpgsign true
+```
+
+## TODO
+
+- sudo dnf install polkit-gnome blueman ripgrep intel-media-driver libva-intel-driver thunar-vcs-plugin thunar-volman thunar-media-tags-plugin thunar-archive-plugin
+- sudo dnf install tumbler ffmpegthumnailer
+
+- curl https://raw.githubusercontent.com/Schniz/fnm/master/.ci/install.sh | bash -s -- --skip-shell
+- curl -sS https://starship.rs/install.sh | sh
+- https://github.com/shiftkey/desktop
+
+- complete other commands from chatgpt
+- git config --global init.defaultBranch main
+- git config --global commit.gpgsign true  
+- export GPG_TTY=$(tty)
+
+- https://rpmfusion.org/Howto/NVIDIA
+
+- if facing vscode errors (sudo dnf remove google-noto-color-emoji-fonts)
+
+- add in .vscode/argv.json
+
+```
+"disable-hardware-acceleration": true,
+"password-store": "gnome"
 ```
